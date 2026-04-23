@@ -152,7 +152,11 @@ function ExecutiveDashboard() {
             </div>
           </div>
 
-          {/* Production + Factory comparison */}
+          
+
+          {/* Plots Table */}
+          <PlotsTable />
+{/* Production + Factory comparison */}
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
             <div className="xl:col-span-2 rounded-2xl border border-border bg-card shadow-soft p-5">
               <div className="flex items-start justify-between mb-2">
@@ -180,10 +184,6 @@ function ExecutiveDashboard() {
               <FactoryComparison />
             </div>
           </div>
-
-          {/* Plots Table */}
-          <PlotsTable />
-
           <div className="text-center text-xs text-muted-foreground py-4">
             © 2026 โรงงานน้ำตาลทิพย์สุโขทัย · Powered by Lovable Earth
           </div>
